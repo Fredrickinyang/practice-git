@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(/Images/writter.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+    height: 500px;
+}
+
+#site-name {
+    margin-left: 10rem;
+    margin-right: 25rem;
+}
+
+#home {
+    color: orange;
+}
+
+#toggle-icon {
+    background-color: rgb(255, 166, 0);
+}
+
+.s {
+    color: rgb(255, 166, 0);
+}
+
+.home {
+    color: rgb(253, 165, 0);
+}
+
+.nav-div {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(255, 255, 255);
+}
+
+.nav-div h1 span {
+    color: rgb(255, 166, 0);
+}
+
+.header-text {
+    margin-top: 120px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.header-text p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.orange-text {
+    color: rgb(255, 166, 0);
+}
+
+.get-button {
+    background-color: rgb(209, 136, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50px;
+    width: 9rem;
+    height: 2rem;
+    margin-right: 5px;
+}
+
+.lorem-button {
+    border: none;
+    border-radius: 50px;
+    margin-left: 5px;
+    width: 9rem;
+    height: 2rem;
+}
+
+.lorem-button i {
+    font-size: 15px;
+    padding-right: 3px;
+}
+
+.join-div {
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(209, 136, 0);
+    color: rgb(255, 255, 255);
+}
+
+.join {
+    margin-top: 10px;
+}
+
+.search-div {
+    display: flex;
+}
+
+.search-div input {
+    padding: 5px;
+    border-radius: 20px 0 0 20px;
+    color: white;
+    margin: 7px 0;
+    border: 1px solid white;
+    outline: none;
+    background-color: transparent;
+}
+
+ ::placeholder {
+    color: white;
+}
+
+.icon-div i {
+    margin-top: 7px;
+    border-radius: 0 20px 20px 0;
+    padding: 9.5px 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(209, 136, 0);
+}
+
+.third-div {
+    box-shadow: rgba(151, 151, 151, 0.26) 0px 0px 15px 3px;
+}
+
+.welcome-note {
+    padding-top: 70px;
+    text-align: center;
+    padding-bottom: 55px;
+}
+
+.boxes-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.boxes-div div {
+    padding-left: 17px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: rgba(110, 110, 110, 0.425) 4px 6px 25px 0px;
+    width: 18rem;
+    margin-bottom: 70px;
+}
+
+.boxes-div div h2 {
+    padding-bottom: 5px;
+}
+
+.boxes-div div i {
+    font-size: 25px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+}
+
+.boxes-div div:nth-child(2) {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.bottom-img {
+    height: 170px;
+    width: 280px;
+}
+
+.last-div {
+    background-color: rgba(219, 219, 219, 0.26);
+}
+
+.last-div div p span {
+    color: rgb(209, 136, 0);
+}
+
+.img-div {
+    margin-right: 20px;
+}
+
+.last-sub-div {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.about-div img {
+    height: 120px;
+    width: 90%;
+}
